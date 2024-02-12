@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+.center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        
+}
+.borde{
+        border: 1px solid #357ddc; 
+        border-radius: 4px; /* Optional: Add rounded corners */
+        padding: 10px; /* Optional: Add padding inside the row */
+        margin: 10px 0; /* Optional: Add margin to create space around the row */
+    }
+.col {
+  margin-bottom: 15px;
+}
+h1 {
+  font-family:monospace;  /* Use your preferred font family */
+  font-size: 3.5rem; /* Adjust the font size as needed */
+  color: #333; /* Set the text color */
+  margin-bottom: 20px; /* Add margin to create space below the heading */
+  text-align: center; /* Center-align the text */
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-label { 
+  color: #000000;
+font-family:'Courier New', Courier, monospace
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-control {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-control:hover {
+  border: 1px solid #c82333;
 }
 
-.App-link {
-  color: #61dafb;
+.btn {
+  background-color: #357ddc;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn:hover {
+  background-color: #c82333;
 }
