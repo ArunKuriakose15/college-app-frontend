@@ -23,31 +23,5 @@ h1 {
 
 }
 
-.form-label { 
-  color: #000000;
-font-family:'Courier New', Courier, monospace
-}
 
-.form-control {
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
 
-.form-control:hover {
-  border: 1px solid #c82333;
-}
-
-.btn {
-  background-color: #357ddc;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background-color: #c82333;
-}
